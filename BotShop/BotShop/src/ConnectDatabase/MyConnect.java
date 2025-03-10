@@ -5,9 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
+// Connect to SQL Server
+
 public class MyConnect {
     private static final String username = "sa";
-    private static final String password = "0867746009B@oqn";
+    private static final String password = "Your pass word is here !";
     private static final String url = "jdbc:sqlserver://DESKTOP-G1PGCVL\\SQLEXPRESS:1433;databaseName=BotShop;encrypt=false";
 
     public static Connection getConnection() {
